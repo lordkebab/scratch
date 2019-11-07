@@ -30,3 +30,27 @@ func TestSumAll(t *testing.T) {
 		}
 	})
 }
+
+func TestSumAllTail(t *testing.T) {
+
+	checksums := func(t *testing.T, got, want []int) {
+		t.Helper()
+		if !reflect.DeepEqual(got, want) {
+			t.Errorf("got %v want %v", got, want)
+		}
+	}
+
+	t.Run("Sum everything but the head element of slices", func(t *testing.T) {
+		got := SumAllTail([]int{1, 2}, []int{0, 9})
+		want := []int{2, 9}
+
+		checksums(t, got, want)
+	})
+
+	t.Run("Safely test empty slice", func(t *testing.T) {
+		got := SumAllTail([]int{}, []int{1,2})
+		want := []int{0, 2}
+
+		checksums(t, got, want)
+	})
+}
