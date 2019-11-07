@@ -1,0 +1,71 @@
+{
+    "meta": {"theme": "elegant"},
+    "basics": {
+        "name": "Matt Selph",
+        "label": "Solutions Architect",
+        "email": "matt@matts.io",
+        "website": "http://matts.io",
+        "summary": "Sr. Database Administrator and Cloud Architect with over a decade of experience in critical systems management including disaster recovery, high availability, tuning, and migration. Seeking a position designing cloud-based solutions. Skilled at interfacing with all levels of management up to and including C-level executives, and partnering with colleagues on cross-functional teams.",
+        "location": {
+            "city": "Bonaire",
+            "postalCode": "GA 31005",
+            "countryCode": "United States"
+        },
+        "profiles": [{
+            "network": "Github",
+            "username": "matts80",
+            "url": "http://github.com/matts80"
+        }]
+    },
+    "work": [{
+        "company": "Research Management Consultants, Inc.",
+        "position": "Sr. Oracle DBA",
+        "website": "http://rmci.com",
+        "startDate": "2017-09-11",
+        "endDate": "2019-07-26",
+        "summary": "Sr. Oracle DBA responsible for databases containing personnel records for all U.S. government employees and military members",
+        "highlights": [
+            "Setup offsite disaster recovery solution using Oracle Recovery Mangaer with Realtime Apply"
+        ]
+    }, {
+        "company": "Northrop Grumman",
+        "position": "Programmer Analyst 3",
+        "website": "http://northropgrumman.com",
+        "startDate": "2010-10-03",
+        "endDate": "2017-09-08",
+        "summary": "Lead DBA responsible for 20 TB of classified and unclassified USAF data",
+        "highlights": [
+            "Rebuilt classified systems in response to catastrophic failure"
+        ]
+    }],
+    "education": [{
+        "institution": "Saint Leo University",
+        "area": "MBA",
+        "studyType": "Masters",
+        "startDate": "2006-01-01",
+        "endDate": "2007-12-31"
+    }, {
+        "institution": "Georgia Southern University",
+        "area": "Management Information Systems",
+        "studyType": "Bachelor",
+        "startDate": "2000-08-01",
+        "endDate": "2002-12-01"
+    }, {
+        "institution": "Middle Georgia College",
+        "area": "Business Administration",
+        "studyType": "Associate",
+        "startDate": "1998-08-01",
+        "endDate": "2000-05-01"
+    }],
+    "skills": [
+        {"name": "Amazon Web Services (AWS)"},
+        {"name": "Python"},
+        {"name": "Golang"},
+        {"name": "Machine Learning"},
+        {"name": "Neural Networks"},
+        {"name": "Tensorflow"},
+        {"name": "Keras"},
+        {"name": "Oracle"},
+        {"name": "Linux"}
+    ]
+}
